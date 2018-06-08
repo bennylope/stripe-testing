@@ -1,0 +1,16 @@
+NUMBER    DESCRIPTION
+4000000000000077    Charge succeeds and funds will be added directly to your available balance (bypassing your pending balance).
+4000000000000093    Charge succeeds and domestic pricing is used (other test cards use international pricing). This card is only significant in countries with split pricing.
+4000000000000010    The address_line1_check and address_zip_check verifications fail. If your account is blocking payments that fail ZIP code validation, the charge is declined.
+4000000000000028    Charge succeeds but the address_line1_check verification fails.
+4000000000000036    The address_zip_check verification fails. If your account is blocking payments that fail ZIP code validation, the charge is declined.
+4000000000000044    Charge succeeds but the address_zip_check and address_line1_check verifications are both unavailable.
+4000000000000101    If a CVC number is provided, the cvc_check fails. If your account is blocking payments that fail CVC code validation, the charge is declined.
+4000000000000341    Attaching this card to a Customer object succeeds, but attempts to charge the customer fail.
+4000000000009235    Charge succeeds with a risk_level of elevated.
+4000000000000002    Charge is declined with a card_declined code.
+4100000000000019    Results in a charge with a risk level of highest. The charge is blocked as it's considered fraudulent.
+4000000000000127    Charge is declined with an incorrect_cvc code.
+4000000000000069    Charge is declined with an expired_card code.
+4000000000000119    Charge is declined with a processing_error code.
+4242424242424241    Charge is declined with an incorrect_number code as the card number fails the Luhn check.
